@@ -1,7 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Geologica:wght@100..900&display=swap');
+ 
  * {
      padding: 0;
      margin: 0;
      box-sizing: border-box;
+     background-color: #E8D6CB;
  }
 
-     {}
+ .card {
+     width: 420px;
+     display: flex;
+     flex-direction: column;
+     justify-content: space-around;
+     background-color: #E8D6CB;
+     align-items: center;
+     background-color: #E8D6CB;
+     margin: 10px;
+     border-radius: 20px;
+     font-family: "Geologica", sans-serif;
+ }
+
+ .card img {
+     width: 400px;
+     height: 400px;
+     justify-content: center;
+     margin: center;
+     border-radius: 15px;
+    
+ }
+
+ #card-container {
+     display: flex;
+     justify-content: space;
+ }
+
+ .card button {
+    width: 100%;
+    padding: 5px;
+    border-bottom-left-radius: 20px; /* Apenas a parte inferior esquerda */
+    border-bottom-right-radius: 20px; /* Apenas a parte inferior direita */
+    font-family: "Geologica", sans-serif;
+    font-size: 15px;
+}
